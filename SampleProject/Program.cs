@@ -1,3 +1,3 @@
-﻿var organizationId = 0;
-Console.WriteLine(organizationId);
+﻿var orgId = 0;
+Console.WriteLine(orgId);
 
