@@ -37,7 +37,7 @@ public class UseOrganizationCodeFixFacts
             {
                 static void Main()
                 {
-                    int orgId_1 = 0;
+                    int organizationId = 0;
                 }
             }
             ";
