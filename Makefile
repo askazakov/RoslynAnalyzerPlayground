@@ -12,6 +12,7 @@ pack: build_release
 	nuget pack PlaygroundAnalyzers/PlaygroundAnalyzers.nuspec -p Configuration=Release -outputDirectory packages
 
 clean:
+	# git clean -d -x -f --exclude .idea
 	dotnet clean
 	export pkgs=`dotnet nuget locals global-packages --list | cut -d ':' -f 2 | xargs`; \
 	rm -r $${pkgs}playgroundanalyzers

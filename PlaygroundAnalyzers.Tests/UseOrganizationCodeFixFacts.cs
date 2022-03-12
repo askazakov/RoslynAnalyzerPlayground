@@ -11,7 +11,7 @@ public class UseOrganizationCodeFixFacts
     : CSharpCodeFixTest<UseOrganizationAnalyzer, UseOrganizationCodeFixProvider, NUnitVerifier>
 {
     [Test]
-    public async Task WhenInconsistentName_AddsExceptionPostfix()
+    public async Task WhenInconsistentName_RenamesIt()
     {
         TestCode = @"
             using System;
