@@ -5,7 +5,7 @@ using Microsoft.CodeAnalysis.Testing;
 using Microsoft.CodeAnalysis.Testing.Verifiers;
 using NUnit.Framework;
 
-namespace PlaygroundAnalyzers.Tests;
+namespace PlaygroundAnalyzers.nUnitTests;
 
 public class UseOrganizationCodeFixFacts
     : CSharpCodeFixTest<UseOrganizationAnalyzer, UseOrganizationCodeFixProvider, NUnitVerifier>

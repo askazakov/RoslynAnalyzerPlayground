@@ -5,7 +5,7 @@ using Microsoft.CodeAnalysis.Testing;
 using Microsoft.CodeAnalysis.Testing.Verifiers;
 using NUnit.Framework;
 
-namespace PlaygroundAnalyzers.Tests;
+namespace PlaygroundAnalyzers.nUnitTests;
 
 [FixtureLifeCycle(LifeCycle.InstancePerTestCase)] // base class shares TestState between cases
 public class UseOrganizationAnalyzerTests : CSharpAnalyzerTest<UseOrganizationAnalyzer, NUnitVerifier>
